@@ -9,9 +9,8 @@ public class School implements SchoolStat {
     public Student addStudent(Student student){
         return student;
     }
-    public School(List<Student> list, int count) {
-        this.list = list;
-        count++;
+    public School(List<Student> list) {
+        list = new ArrayList<>();
     }
     @Override
     public Student getTheBestStudent() {
