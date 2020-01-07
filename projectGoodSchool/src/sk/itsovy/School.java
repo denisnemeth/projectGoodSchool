@@ -6,10 +6,7 @@ import java.util.List;
 public class School implements SchoolStat {
     private List<Student> list;
     private int count = 0;
-    public Student addStudent(Student student){
-        return student;
-    }
-    public School(List<Student> list) {
+    public School() {
         list = new ArrayList<>();
     }
     @Override
